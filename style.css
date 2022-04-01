@@ -92,7 +92,10 @@
     display: flex;
     place-items:center;
     border-radius:1vmin;
+    position:relative;
+    padding-left:2%;
 }
+
 .box:hover{
     background:black;
     color:white;
@@ -156,17 +159,38 @@ opacity: 0;
     transform:translateY(0%);
 }
 .head{
-    width:75%;height:100%;
+    width:75%;height:25%;
     font-weight: bold;
     display: flex;
-    place-items:center;
+    place-items:start;
     overflow:hidden;;
-    font-size:2.5vmin;
+    font-size:2vmin;
     padding-left:2vmin;
+    position:absolute;
+    top:15%;
     text-transform:uppercase;
 }
+#range{
+    -webkit-appearance: none;
+    -webkit-appearance: none;
+    position:absolute;
+    width:70%;
+    height:15%;
+    bottom:15%;
+    background:rgb(0, 0, 0);
+    border-radius:1vmin;
+    overflow: hidden;
+}
+#range::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Override default look */
+    appearance: none;
+    width: 2%; /* Set a specific slider handle width */
+    height: 100px; /* Slider handle height */
+    background: #ff4444; /* Green background */
+    cursor: pointer; /* Cursor on hover */
+  }
 @media only screen and (max-width:1080px) {
-   .drum {
+    .drum {
         width: 95%;
     }
 
