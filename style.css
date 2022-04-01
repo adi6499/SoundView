@@ -166,7 +166,7 @@ opacity: 0;
     text-transform:uppercase;
 }
 @media only screen and (max-width:1080px) {
-    .drum {
+   .drum {
         width: 95%;
     }
 
@@ -176,7 +176,8 @@ opacity: 0;
        z-index: 344;
    }
    .head{
-       font-size:1.9vmin;
+       font-size:3vmin;
+
    }
    #toggle{
        right:27%;
@@ -187,5 +188,26 @@ opacity: 0;
    }
    .waves{
        left:28%;
+   }
+
+   .box{
+
+    height:25vmin;
+   }
+   #range{
+       width:40%;
+       top:50%;
+       left:5%;
+   }
+   #toggle {
+       width:10vmin;
+       height:10vmin;
+       right:30%;
+       top:35%;
+       font-size:5vmin;
+   }
+   .download{
+       height:10vmin;
+       top:35%;
    }
 }
